@@ -1,40 +1,83 @@
-body {
-  margin: 0;
-  padding: 2rem;
-  background-color: hsl(250, 24%, 9%);
-  color: hsl(0, 0%, 100%);
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+*
+{
+    margin: 0;
+    padding: 0;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+.D1
+{
+    height: 90px;
+    background-color: #e1a6af;
 }
 
-h1 {
-  font-size: 48px;
-  margin: 1rem 0;
+.D2
+{
+    height: 455px;
 }
 
-.logo {
-  width: 8rem;
-  height: 8rem;
-  margin-bottom: 2rem;
+.D3
+{
+    height: 80px;
+    background-color: #95abcc;
+    color: wheat;
+    text-align: center;
+    text-decoration: wavy;
+    font-weight: bolder;
 }
 
-p {
-  line-height: 1.6;
+.contenedor
+{
+    background-color: #e3b8a1;
+    background-image: url(Medios/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-a {
-  color: hsl(270, 70%, 65%);
-  text-decoration: none;
+.logo
+{
+    width: 195px;
+	height: 80px;
+    padding-left: 10px;
 }
 
-a:hover {
-  text-decoration: underline;
+.canciones
+{
+    padding-top: 130px;
+    padding-left: 10px;
+    float: left;
+}
+
+.pelicula
+{
+    margin-top: 40px;
+    float: right;
+    margin-right: 25px;
+    background-color: #faecbe;
+    height: 350px;
+    border-radius: 30px;
+    
+
+}
+
+.trailer
+{
+    padding: 50px 15px;
+    float: right;
+}
+
+.enlace
+{
+    float: right;
+    text-align: unset;
+    color: #95abcc;
+    font-weight: bolder;
+    padding: 25px;
+    float: left;
+}
+
+.netflix
+{
+    width: 70px;
+    height: 70px;
+    margin: 70px;
 }
